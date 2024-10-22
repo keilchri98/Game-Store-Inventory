@@ -1,0 +1,8 @@
+games_available = ["Diablo", "Red_Dead", "Elder_Scrolls", "GTA", "Baldurs_Gate"]
+game_i_want = "Baldurs_Gate"
+
+for game in games_available:
+  print(game)
+  if game == game_i_want:
+    print("They have the game I want!")
+    break
